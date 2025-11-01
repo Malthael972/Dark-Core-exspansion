@@ -1,11 +1,9 @@
 {
-  "name": "dark-core-expansion",
-  "displayName": "Dark Core Expansion",
-  "author": "YourName",
-  "description": "Adds dark-themed versions of Erekir core blocks, unit fabricators, and their associated units. Includes new cores, power infrastructure, and complete unit production chains.",
-  "version": "1.0",
-  "minGameVersion": "146",
-  "java": true,
-  "main": "darkcore.DarkCoreExpansion",
-  "hidden": false
+  name: "Dark Core Expansion",
+  displayName: "Dark Core Expansion",
+  author: "frank",
+  version: "0.1",
+  description: "Erekir-only expansion: Dark Core Bastions, Fabricators, Turbine Condenser, Beam Node, and new units.",
+  main: "darkcore.DarkCoreMod",
+  minGameVersion: "146"
 }
