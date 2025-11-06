@@ -11,6 +11,7 @@ darkstell = new TankUnitType("dark-stell"){{
     floorMultiplier = 0.95f;
     treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
     researchCostMultiplier = 0f;
+    alwaysUnlocked = true;
 
     weapons.add(new Weapon("dark-stell-weapon"){{
         layerOffset = 0.0001f;
