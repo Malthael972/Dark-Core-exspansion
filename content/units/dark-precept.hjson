@@ -1,5 +1,5 @@
 type: TankUnitType
-constructor: UnitEntity::create
+constructor: TankUnit
 hitSize: 24
 treadPullOffset: 5
 speed: 0.64
