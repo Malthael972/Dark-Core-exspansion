@@ -1,7 +1,6 @@
   name: "Dark Core Expansion",
   displayName: "Dark Core Expansion",
   author: "frank",
-  version: "0.1",
+  version: "1.0",
   description: "work in progress",
-  main: "darkcore.DarkCoreMod",
   minGameVersion: "147"
