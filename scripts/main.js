@@ -1,9 +1,9 @@
-// Set constructors for tank units
-const tankUnits = ["dark-stell", "dark-locus", "dark-precept", "dark-vanquish", "dark-conquer"];
+const tankConstructor = () => extend(TankUnit, {});
 
-tankUnits.forEach(name => {
-    const unit = Vars.content.getByName(ContentType.unit, "dark-core-expansion-" + name);
-    if(unit != null){
-        unit.constructor = prov(() => new TankUnit(unit));
-    }
+Events.on(ContentInitEvent, () => {
+    Vars.content.units().each(unit => {
+        if(unit instanceof TankUnitType){
+            unit.constructor = tankConstructor;
+        }
+    });
 });
