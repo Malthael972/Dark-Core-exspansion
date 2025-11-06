@@ -1,5 +1,6 @@
 name: dark locus
 type: TankUnitType
+constructor: UnitEntity.create
 hitSize: 18
 treadPullOffset: 5
 speed: 0.7
