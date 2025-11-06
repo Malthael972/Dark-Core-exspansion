@@ -1,4 +1,4 @@
-Block dakTankFabricator;
+Block darkTankFabricator;
 
 darkTankFabricator = new UnitFactory("dark-tank-fabricator"){{
     requirements(Category.units, with(Items.silicon, 200, Items.beryllium, 150));
