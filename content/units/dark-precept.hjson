@@ -1,0 +1,95 @@
+type: TankUnitType
+hitSize: 24
+treadPullOffset: 5
+speed: 0.64
+rotateSpeed: 1.5
+health: 5000
+armor: 11
+itemCapacity: 0
+floorMultiplier: 0.65
+drownTimeMultiplier: 1.2
+immunities: {burning, melting}
+treadRects: {
+  {
+    x: -44
+    y: -22
+    width: 30
+    height: 75
+  }
+  {
+    x: -16
+    y: -53
+    width: 17
+    height: 60
+  }
+}
+researchCostMultiplier: 0
+weapons: {
+  {
+    name: dark-precept-weapon
+    shootSound: dullExplosion
+    layerOffset: 0.0001
+    reload: 80
+    shootY: 16
+    recoil: 3
+    rotate: true
+    rotateSpeed: 1.625
+    mirror: false
+    shootCone: 2
+    x: 0
+    y: -1
+    heatColor: f9350f
+    cooldownTime: 30
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      speed: 7
+      damage: 120
+      width: 7.5
+      height: 13
+      lifetime: 28
+      hitSize: 6
+      pierceCap: 2
+      pierce: true
+      pierceBuilding: true
+      hitColor: feb380
+      backColor: feb380
+      trailColor: feb380
+      frontColor: ffffff
+      trailWidth: 2.8
+      trailLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      splashDamageRadius: 20
+      splashDamage: 50
+      trailEffect: hitSquaresColor
+      trailRotation: true
+      trailInterval: 3
+      fragBullets: 4
+      fragBullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        speed: 5
+        damage: 35
+        width: 5
+        height: 7
+        lifetime: 15
+        hitSize: 4
+        pierceCap: 3
+        pierce: true
+        pierceBuilding: true
+        hitColor: feb380
+        backColor: feb380
+        trailColor: feb380
+        frontColor: ffffff
+        trailWidth: 1.7
+        trailLength: 3
+        drag: 0.01
+        despawnEffect: hitBulletColor
+        hitEffect: hitBulletColor
+      }
+    }
+  }
+}
