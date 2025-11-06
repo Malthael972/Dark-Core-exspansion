@@ -1,9 +1,7 @@
-{
   name: "Dark Core Expansion",
   displayName: "Dark Core Expansion",
   author: "frank",
   version: "0.1",
-  description: "Erekir-only expansion: Dark Core Bastions, Fabricators, Turbine Condenser, Beam Node, and new units.",
+  description: "work in progress",
   main: "darkcore.DarkCoreMod",
   minGameVersion: "146"
-}
