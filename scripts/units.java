@@ -1,6 +1,6 @@
 UnitType darkstell;
 
-darkstell = new TankUnitType("dark-stell"){{
+stell = new TankUnitType("dark-stell"){{
     hitSize = 12f;
     treadPullOffset = 3;
     speed = 0.75f;
@@ -10,9 +10,8 @@ darkstell = new TankUnitType("dark-stell"){{
     itemCapacity = 0;
     floorMultiplier = 0.95f;
     treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
-    
-    constructor = TankUnit::create;  // IMPORTANT FOR V8
-    
+    researchCostMultiplier = 0f;
+
     weapons.add(new Weapon("dark-stell-weapon"){{
         layerOffset = 0.0001f;
         reload = 50f;
