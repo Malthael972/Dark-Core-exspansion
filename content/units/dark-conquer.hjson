@@ -1,5 +1,6 @@
 name: dark conquer
 type: TankUnitType
+constructor: UnitEntity.create
 hitSize: 46
 treadPullOffset: 1
 speed: 0.48
