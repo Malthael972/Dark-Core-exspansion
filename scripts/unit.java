@@ -10,9 +10,9 @@ darkstell = new TankUnitType("dark-stell"){{
     itemCapacity = 0;
     floorMultiplier = 0.95f;
     treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
-    researchCostMultiplier = 0f;
-    alwaysUnlocked = true;
-
+    
+    constructor = TankUnit::create;  // IMPORTANT FOR V8
+    
     weapons.add(new Weapon("dark-stell-weapon"){{
         layerOffset = 0.0001f;
         reload = 50f;
