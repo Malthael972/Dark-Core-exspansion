@@ -1,4 +1,3 @@
-name: dark precept
 type: TankUnitType
 constructor: UnitEntity.create
 hitSize: 24
