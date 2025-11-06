@@ -20,7 +20,7 @@ treadRects: [
 ]
 weapons: [
   {
-    name: vanquish-weapon
+    name: dark-vanquish-weapon
     shootSound: mediumCannon
     layerOffset: 0.0001
     reload: 70
@@ -88,7 +88,7 @@ weapons: [
     }
   }
   {
-    name: vanquish-point-weapon
+    name: dark-vanquish-point-weapon
     reload: 35
     x: 12
     y: 8.5
@@ -115,7 +115,7 @@ weapons: [
     }
   }
   {
-    name: vanquish-point-weapon
+    name: dark-vanquish-point-weapon
     reload: 40
     x: 12
     y: -9
