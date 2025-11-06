@@ -4,4 +4,4 @@
   version: "0.1",
   description: "work in progress",
   main: "darkcore.DarkCoreMod",
-  minGameVersion: "146"
+  minGameVersion: "147"
