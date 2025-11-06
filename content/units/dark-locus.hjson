@@ -1,4 +1,3 @@
-name: dark locus
 type: TankUnitType
 constructor: UnitEntity.create
 hitSize: 18
