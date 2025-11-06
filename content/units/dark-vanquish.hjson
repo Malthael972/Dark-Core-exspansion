@@ -1,3 +1,4 @@
+name: dark vanquish
 type: TankUnitType
 hitSize: 28
 treadPullOffset: 4
