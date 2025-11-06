@@ -1,4 +1,3 @@
-name: dark stell
 type: TankUnitType
 constructor: UnitEntity.create
 hitSize: 12
