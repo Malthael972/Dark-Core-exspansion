@@ -1,4 +1,3 @@
-name: dark vanquish
 type: TankUnitType
 constructor: UnitEntity.create
 hitSize: 28
