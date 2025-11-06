@@ -1,6 +1,6 @@
 UnitType darkstell;
 
-stell = new TankUnitType("dark-stell"){{
+darkstell = new TankUnitType("dark-stell"){{
     hitSize = 12f;
     treadPullOffset = 3;
     speed = 0.75f;
