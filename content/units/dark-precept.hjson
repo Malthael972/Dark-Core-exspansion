@@ -1,4 +1,6 @@
+name: dark precept
 type: TankUnitType
+constructor: UnitEntity.create
 hitSize: 24
 treadPullOffset: 5
 speed: 0.64
